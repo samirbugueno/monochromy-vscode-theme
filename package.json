@@ -1,0 +1,37 @@
+{
+    "name": "monochromy",
+    "displayName": "Monochromy Theme",
+    "description": "A high-contrast minimalist theme for Visual Studio Code.",
+    "version": "1.0.0",
+    "icon": "./src/icon.png",
+    "galleryBanner": {
+        "color": "#000",
+        "theme": "dark"
+    },
+    "author": {
+      "name": "saMirky"
+    },
+    "publisher": "samirky",
+    "license": "SEE LICENSE IN LICENSE",
+    "homepage": "https://github.com/samirbugueno/monochromy-vscode-theme/main/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/samirbugueno/monochromy-vscode-theme.git"
+    },
+    "engines": {
+      "vscode": "^1.92.0"
+    },
+    "categories": [
+      "Themes"
+    ],
+    "contributes": {
+      "themes": [
+        {
+          "label": "Monochromy",
+          "uiTheme": "hc-black",
+          "path": "./theme.json"
+        }
+      ]
+    }
+  }
+  
