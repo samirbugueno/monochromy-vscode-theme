@@ -383,6 +383,17 @@
         "terminal.foreground": "#fff",
         "terminal.border": "#fff",
 
+        "gitDecoration.addedResourceForeground": "#fff",
+		"gitDecoration.conflictingResourceForeground": "#ffffff80",
+		"gitDecoration.deletedResourceForeground": "#ffffff80",
+		"gitDecoration.ignoredResourceForeground": "#fff",
+		"gitDecoration.renamedResourceForeground": "#fff",
+		"gitDecoration.stageDeletedResourceForeground": "#ffffff80",
+		"gitDecoration.stageModifiedResourceForeground": "#fff",
+		"gitDecoration.submoduleResourceForeground": "#fff",
+        "gitDecoration.modifiedResourceForeground": "#fff",
+        "gitDecoration.untrackedResourceForeground": "#fff",
+
         "welcomePage.background": "#000"
     },
     "tokenColors": [
@@ -402,7 +413,6 @@
                 "constant.regexp",
                 "constant.other",
                 "constant",
-                
 
                 "entity.other.attribute-name.parent-selector.css",
                 "entity.other.attribute-name.pseudo-element.css",
